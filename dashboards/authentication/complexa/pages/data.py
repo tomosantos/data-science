@@ -1,13 +1,20 @@
-from dash import html, dcc
-from dash.dependencies import Input, Output, State
-import dash_bootstrap_components as dbc
 from app import *
+
+from dash import html, dcc
+import dash_bootstrap_components as dbc
+from dash_bootstrap_templates import load_figure_template
+from dash.dependencies import Input, Output, State
+from dash.exceptions import PreventUpdate
+
+from flask_login import current_user, logout_user
 
 import numpy as np
 import pandas as pd
+
 import plotly.express as px
 import plotly.graph_objects as go
-from dash_bootstrap_templates import load_figure_template
+
+
 
 load_figure_template(['quartz'])
 
@@ -39,3 +46,17 @@ def render_layout(username):
     ], style=card_style, className='align-self-center')
     
     return template
+
+@app.callback(
+    Output('data-url', 'pathname'),
+    Input('logout_button', 'n_clicks')
+)
+def successful(n_clicks):
+    if n_clicks == None:
+        raise PreventUpdate
+    
+    if current_user.is_authenticated:
+        logout_user()
+        return '/login'
+    else:
+        return '/login'
