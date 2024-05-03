@@ -53,7 +53,7 @@ def render_page_content(login_state, register_state):
                 if trigg_idd == 'login-state' and login_state == 'error':
                         return '/login'
                 
-                if trigg_idd == 'register-state':
+                elif trigg_idd == 'register-state':
                         if register_state == '':
                                 return '/login'
                         else:
@@ -70,7 +70,7 @@ def render_page_content(login_state, register_state):
 )
 def render_page_content(pathname, login_state, register_state):
         if (pathname == '/login' or pathname == '/'):
-                return login.render_layout()
+                return login.render_layout(login_state)
         
         if pathname == '/register':
                 return register.render_layout(register_state)
