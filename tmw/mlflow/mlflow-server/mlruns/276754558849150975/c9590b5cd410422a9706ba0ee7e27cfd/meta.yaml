@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/276754558849150975/c9590b5cd410422a9706ba0ee7e27cfd/artifacts
+end_time: 1743978265696
+entry_point_name: ''
+experiment_id: '276754558849150975'
+lifecycle_stage: active
+run_id: c9590b5cd410422a9706ba0ee7e27cfd
+run_name: vaunted-frog-876
+run_uuid: c9590b5cd410422a9706ba0ee7e27cfd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743978259627
+status: 3
+tags: []
+user_id: welli

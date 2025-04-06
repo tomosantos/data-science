@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/276754558849150975/8658fdcd935a499499e980818d45d9f2/artifacts
+end_time: 1743976824105
+entry_point_name: ''
+experiment_id: '276754558849150975'
+lifecycle_stage: active
+run_id: 8658fdcd935a499499e980818d45d9f2
+run_name: charming-foal-584
+run_uuid: 8658fdcd935a499499e980818d45d9f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743976813357
+status: 3
+tags: []
+user_id: welli

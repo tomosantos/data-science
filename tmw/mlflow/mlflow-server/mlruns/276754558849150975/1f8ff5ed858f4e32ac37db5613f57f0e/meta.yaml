@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/276754558849150975/1f8ff5ed858f4e32ac37db5613f57f0e/artifacts
+end_time: 1743977081656
+entry_point_name: ''
+experiment_id: '276754558849150975'
+lifecycle_stage: active
+run_id: 1f8ff5ed858f4e32ac37db5613f57f0e
+run_name: adorable-fox-692
+run_uuid: 1f8ff5ed858f4e32ac37db5613f57f0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743977070990
+status: 3
+tags: []
+user_id: welli

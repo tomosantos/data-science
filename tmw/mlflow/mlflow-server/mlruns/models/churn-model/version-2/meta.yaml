@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1743978292434
+current_stage: None
+description: ''
+last_updated_timestamp: 1743978292434
+name: churn-model
+run_id: c9590b5cd410422a9706ba0ee7e27cfd
+run_link: ''
+source: mlflow-artifacts:/276754558849150975/c9590b5cd410422a9706ba0ee7e27cfd/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/276754558849150975/c9590b5cd410422a9706ba0ee7e27cfd/artifacts/model
+user_id: null
+version: 2

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/276754558849150975/a1f202639c1a48ff8cf471f36476a311/artifacts
+end_time: 1743978726763
+entry_point_name: ''
+experiment_id: '276754558849150975'
+lifecycle_stage: active
+run_id: a1f202639c1a48ff8cf471f36476a311
+run_name: calm-hare-576
+run_uuid: a1f202639c1a48ff8cf471f36476a311
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743978721371
+status: 3
+tags: []
+user_id: welli
