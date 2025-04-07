@@ -1,5 +1,18 @@
 ## Repositório Full Master de Dados
 
+### 0. Infos
+
+Para acessar mlflow executar:
+
+```bash
+cd mlflow
+conda activate mlflow-server
+mlflow server
+```
+
+Tutorial Completo está no caminho 'tmw/mlflow'
+- Utilizar enviroments separados para MLFlow e o Projeto que está desenvolvendo.
+
 ### 1. Cursos/Plataformas
 
 - [Téo Me Why](https://cursos.teomewhy.org/)

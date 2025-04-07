@@ -7,3 +7,12 @@ psycopg2
 tensorflow
 catboost
 xgboost
+lightgbm
+missingno
+summarytools
+geopy
+category_encoders
+optuna
+plotly
+matplotlib
+seaborn
