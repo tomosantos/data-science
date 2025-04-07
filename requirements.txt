@@ -4,3 +4,6 @@ scikit-learn
 imblearn
 openpyxl
 psycopg2
+tensorflow
+catboost
+xgboost
