@@ -2,7 +2,7 @@
 
 ### 1. Cursos/Plataformas
 
-- [Téo Me Why](https://cursos.teomewhy.org/).
+- [Téo Me Why](https://cursos.teomewhy.org/)
 - [KrishAI](https://kerry.udemy.com/course/complete-machine-learning-nlp-bootcamp-mlops-deployment/learn/lecture/43986740?start=0)
 - [Universidade dos Dados](https://hotmart.com/pt-br/club/clube-de-assinaturas-da-universidade-dos-dados/products/2668372)
 - [Alura](https://cursos.alura.com.br/dashboard)
