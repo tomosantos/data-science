@@ -4,7 +4,6 @@ scikit-learn
 imblearn
 openpyxl
 psycopg2
-tensorflow
 catboost
 xgboost
 lightgbm
@@ -16,3 +15,5 @@ optuna
 plotly
 matplotlib
 seaborn
+jinja2
+nbformat
