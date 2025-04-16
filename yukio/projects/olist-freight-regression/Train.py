@@ -59,4 +59,16 @@ for col in X_train_encoded.select_dtypes(include=['object']).columns:
 
 model_XGBoost.fit(X_train_encoded, y_train)
 r = permutation_importance(model_XGBoost, X_test_encoded, y_test, n_repeats=30, random_state=0)
+
+# %%
+importances = pd.DataFrame({'Feature': X_test_encoded.columns, 'importance': r.importances_mean})
+importances = importances.sort_values(by='importance', ascending=False)
+importances
+
+# %%
+less_important_columns = ['purchase_day_of_week', 'approval_order_time', 'estimated_delivery_time', 'christmas', 'black_friday']
+
+X_train = X_train.drop(columns=less_important_columns)
+X_test = X_test.drop(columns=less_important_columns)
+
 # %%
