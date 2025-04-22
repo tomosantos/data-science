@@ -14,6 +14,7 @@ from feature_engine import imputation
 
 import scikitplot as skplt
 
+
 # %%
 df = pd.read_csv("../data/dados_pontos.csv",
                  sep=";")
