@@ -158,7 +158,7 @@ skplt.metrics.plot_ks_statistic(y_test, y_test_proba)
 model_s = pd.Series({
     'model': meu_pipeline,
     'features': features,
-    'auc_test': acc_test,
+    'acc_test': acc_test,
     'auc_roc': auc_test
 })
 model_s
