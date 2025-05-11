@@ -18,3 +18,6 @@ seaborn
 jinja2
 nbformat
 scikit-plot
+tensorflow
+tensorboard
+streamlit
