@@ -1,4 +1,3 @@
-mlflow/mlartifacts/
-mlflow/mlruns/
+mlruns
 yukio/projects/olist-freight-regression/catboost_info
 __pycache__/

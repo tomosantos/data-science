@@ -24,3 +24,4 @@ streamlit
 scikeras
 keras
 kneed
+mlflow
