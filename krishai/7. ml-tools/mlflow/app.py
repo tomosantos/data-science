@@ -80,19 +80,23 @@ if __name__ == "__main__":
 
         ## For Remote server only(DAGShub)
 
-        # remote_server_uri="..."
-        # mlflow.set_tracking_uri(remote_server_uri)
+        remote_server_uri="https://dagshub.com/tomosantos/data-science.mlflow"
+        mlflow.set_tracking_uri(remote_server_uri)
 
-        # tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
+        tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
-        # # Model registry does not work with file store
-        # if tracking_url_type_store != "file":
-        #     # Register the model
-        #     # There are other ways to use the Model Registry, which depends on the use case,
-        #     # please refer to the doc for more information:
-        #     # https://mlflow.org/docs/latest/model-registry.html#api-workflow
-        #     mlflow.sklearn.log_model(
-        #         lr, "model", registered_model_name="ElasticnetWineModel"
-        #     )
-        # else:
-        #     mlflow.sklearn.log_model(lr, "model")
+        os.environ["MLFLOW_TRACKING_URI"] = os.getenv("MLFLOW_TRACKING_URI")
+        os.environ["MLFLOW_TRACKING_USERNAME"] = os.getenv("MLFLOW_TRACKING_USERNAME")
+        os.environ["MLFLOW_TRACKING_PASSWORD"] = os.getenv("MLFLOW_TRACKING_PASSWORD")
+
+        # Model registry does not work with file store
+        if tracking_url_type_store != "file":
+            # Register the model
+            # There are other ways to use the Model Registry, which depends on the use case,
+            # please refer to the doc for more information:
+            # https://mlflow.org/docs/latest/model-registry.html#api-workflow
+            mlflow.sklearn.log_model(
+                lr, "model", registered_model_name="ElasticnetWineModel"
+            )
+        else:
+            mlflow.sklearn.log_model(lr, "model")

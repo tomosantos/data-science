@@ -24,4 +24,5 @@ streamlit
 scikeras
 keras
 kneed
-mlflow
+mlflow<3
+dvc
