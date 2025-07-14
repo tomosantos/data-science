@@ -26,3 +26,5 @@ keras
 kneed
 mlflow<3
 dvc
+nltk
+spacy
