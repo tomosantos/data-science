@@ -28,3 +28,6 @@ mlflow<3
 dvc
 nltk
 spacy
+gensim
+tqdm
+scipy==1.12.0
