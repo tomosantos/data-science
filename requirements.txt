@@ -31,3 +31,5 @@ spacy
 gensim
 tqdm
 scipy==1.12.0
+bs4
+lxml
