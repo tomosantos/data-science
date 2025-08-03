@@ -27,3 +27,8 @@ Tutorial Completo está no caminho 'tmw/mlflow'
 - [Papers](https://www.youtube.com/@YannicKilcher)
 - [Curso NLP](https://iepecdg.com.br/introducao-a-modelos-de-linguagem-natural-aprendizado-por-maquina-e-inteligencia-artificial/)
 - [Podcast](https://www.youtube.com/@MachineLearningStreetTalk)
+
+
+### 3. Websites
+
+- [Colah's Blog](https://colah.github.io/)
