@@ -25,6 +25,7 @@ Tutorial Completo está no caminho 'tmw/mlflow'
 ### 2. Cursos de Extensão/YT
 
 - [Papers](https://www.youtube.com/@YannicKilcher)
+- [Papers 2](https://www.youtube.com/@StatMachLearn)
 - [Curso NLP](https://iepecdg.com.br/introducao-a-modelos-de-linguagem-natural-aprendizado-por-maquina-e-inteligencia-artificial/)
 - [Podcast](https://www.youtube.com/@MachineLearningStreetTalk)
 
@@ -32,3 +33,8 @@ Tutorial Completo está no caminho 'tmw/mlflow'
 ### 3. Websites
 
 - [Colah's Blog](https://colah.github.io/)
+- [Erdem's Blog](https://erdem.pl/)
+
+### 4. NLP Articles
+
+- [Introduction to Attention Mechanism](https://erdem.pl/2021/05/introduction-to-attention-mechanism)
