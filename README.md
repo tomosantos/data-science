@@ -38,3 +38,4 @@ Tutorial Completo está no caminho 'tmw/mlflow'
 ### 4. NLP Articles
 
 - [Introduction to Attention Mechanism](https://erdem.pl/2021/05/introduction-to-attention-mechanism)
+- [Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
